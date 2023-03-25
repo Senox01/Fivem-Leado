@@ -1,0 +1,93 @@
+body {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container {
+    height: 60vh;
+    width: 50vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 20vh;
+    border-top: 1vh solid orange;
+    border-bottom: 1vh solid orange;
+    border-radius: 10px;
+}
+
+.header {
+    height: 3vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3vh;
+    font-size: 20px;
+}
+
+.item-box {
+    height: 53vh;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    margin-top: 2vh;
+}
+
+.item-box-content {
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 1vh;
+}
+
+.image-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 95%;
+    width: 7vh;
+    border: 2px solid black;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.item-name {
+    margin-left: 12vh;
+    margin-top: -4.5vh;
+}
+
+.item-price {
+    margin-left: 25vh;
+    margin-top: -2vh;
+}
+
+.buy {
+    background-color: #7cc576;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 2.5vh;
+    width: 10vh;
+    margin-left: 35vh;
+    margin-top: -3.5vh;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    line-height: 2.5vh;
+    font-size: 15px;
+}
+
+.sell {
+    background-color: rgb(253, 56, 56);
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 2.5vh;
+    width: 10vh;
+    margin-left: 35vh;
+    margin-top: 0.2vh;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    line-height: 2.5vh;
+    font-size: 15px;
+}
